@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style type="text/css">
+
+    .main{
+      display:flex;
+      width:100%;
+      border:2px solid blue;    
+    }
+    .sub1{
+      width:25%;
+      border: 2px solid maroon;
+      padding:2%;
+      margin:2%;
+      box-shadow: 5px 10px 20px 10px teal;
+      text-align: center;
+    }
+    .sub2{
+      width:75%;
+      border: 2px solid maroon;
+      padding:2%;
+      margin:2%;
+      box-shadow: 5px 10px 20px 10px teal;
+      text-align: left;
+    }
+   .image{
+     border-radius: 10px;
+     height: 260px;
+  }
+  h1{
+    text-align: center;
+    font-family: serif;
+    background-color: teal;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 8px;
+   border-color: white;
+  }
+  h2{
+  font-family: sans-serif;
+  font-size: 30px;
+  }
+  a{
+   text-decoration:  none;
+   background-color: yellow;
+   padding: 10px;
+   font-family: verdana;
+   border-radius: 8px;
+   border-color: white;
+ }
+ a:hover{
+  background-color: white;
+  font-weight: bold;
+ }
+  table{
+    width: 100%;
+  }
+      @media only screen and (min-width:320px) and (max-width:480px)
+      {
+        
+       .main{
+         display:flex;
+         flex-direction: column;
+         width:100%;
+       }
+       .main>div{
+         width: 90%;
+       }
+
+      }
+      @media only screen and (min-width:481px) and (max-width:768px)
+      {
+        
+       .main{
+         display:flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         width:100%;
+       }
+       .main>div{
+         width: 25%;
+       }
+       img{
+         max-width: 100%;
+       }
+
+      }
+       @media only screen and (min-width:769px) and (max-width:1024px)
+      {
+        
+       .main{
+         display:flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width:100%;
+       }
+       .main>div{
+         width: 25%;
+       }
+       img{
+         max-width: 100%;
+         border-radius: 50%;
+         border: 2px solid teal;
+       }
+
+      }
+  </style>
+
+</head>
+  <body>
+      <h1>RESUME</h1>
+     <div class="main">
+        <div class="sub1">
+         
+         <img src="pic.jpg" class="image">
+         <h2>MYTHILY</h2>
+         <section>
+         	<p>Email:  <a href="mailto:mythily23@gmail.com">mythily23@gmail.com</a></p>
+         	<p>Phone no. 7421899012</p>
+         </section>
+         <h2>Address</h2>
+         <section>
+         	<p>Madhurwada</p>
+         	<p>Vishakapatnam</p>
+         </section>
+
+       </div>
+
+
+       <div class="sub2">
+         <h2>Career Objectives</h2>
+         <section>
+           <p>To obtain a significant and challenging position as a financial analysis adivisor wherein I will learn and excel in finance operation processes. A job that provides me a scope for growth in the finance vertical</p>
+         </section>
+         <h2>Education</h2>
+         <section>
+          <h3>B.Tech</h3>
+            <ul>
+               <li>Andhra University </li>
+               <li>Computer Science</li>
+               <li>2018 - 2022, 91.1%</li>
+            </ul>
+            2018 - 2022, 96.3%
+          <h3>Intermediate</h3>
+         	  <ul>
+               <li>Sree Kasyap Junior College</li>
+               <li>2016 - 2018, 96.3%</li>
+            </ul>
+         	
+         </section>
+         <h2>Technical Skills</h2>
+       <table border=2>
+       	<tr>
+       		<th>Languages</th>
+       		<td>C,C++,JAVA,Python,Data Structures</td>
+       	</tr>
+       	<tr>
+       		<th>DataBases</th>
+       		<td>SQL,MySQL,Oracle</td>
+       	</tr>
+         <tr>
+       		<th>Operating Systems</th>
+       		<td>Linux,Windows,MAC,Ubuntu</td>
+       	</tr>
+       </table>
+        <h2>Achievements</h2>
+        <section>
+          <ul>
+            <li>I was certified by Udacity as Nano Degree Front End Web Devolper</li>
+            <li>I got certificated in Web Devolpment</li>
+          </ul>
+        </section>
+    </div>
+  </div>
+
+    
+ </body>
+</html>
