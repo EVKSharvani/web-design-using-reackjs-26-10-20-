@@ -1,0 +1,36 @@
+*{
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+main{
+	background-color:teal;
+	padding: 60px;
+	font-family: verdana;
+	border-radius: 8px;
+}
+
+header,h2{
+	font-family: sans-serif;
+	font-size: 30px;
+	color:#fff;
+
+}
+.image{
+	border-radius: 10px;
+	height: 260px;
+}
+
+a{
+	text-decoration:  none;
+	background-color: yellow;
+	padding: 10px;
+	font-family: verdana;
+	border-radius: 8px;
+	border-color: white;
+
+}
+a:hover{
+	background-color: white;
+	font-weight: bold;
+}
